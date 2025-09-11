@@ -1,12 +1,12 @@
 // Clase que representa a un Empleado
 class Empleado {
-    int id;                // Identificador único del empleado
-    String nombre;         // Nombre del empleado
-    String puesto;         // Puesto o cargo que ocupa
-    double salario;        // Salario mensual
-    int edad;              // Edad del empleado
+    int id;             // ID único del empleado
+    String nombre;      // Nombre del empleado
+    String puesto;      // Puesto de trabajo del empleado
+    double salario;     // Salario del empleado
+    int edad;           // Edad del empleado
 
-    // Constructor para crear un empleado con todos sus atributos
+    // Constructor para inicializar un empleado con todos sus atributos
     public Empleado(int id, String nombre, String puesto, double salario, int edad) {
         this.id = id;
         this.nombre = nombre;
@@ -15,11 +15,9 @@ class Empleado {
         this.edad = edad;
     }
 
-    // Método para mostrar la información del empleado
+    // Método que devuelve una representación en texto del empleado
     public String toString() {
         return "ID: " + id + " | Nombre: " + nombre + " | Puesto: " + puesto +
                " | Salario: $" + salario + " | Edad: " + edad;
     }
 }
-
-

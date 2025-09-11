@@ -1,51 +1,62 @@
-// Clase principal para probar el sistema interactivo
+// Clase principal del sistema
 
+import java.util.Random;
 import java.util.Scanner;
 
+// Clase principal que contiene el menú interactivo
 public class GestionEmpleados {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);   // Objeto para leer datos del usuario
-        ArbolBinario arbol = new ArbolBinario(); // Árbol binario de empleados
-        int opcion; // Variable para el menú
+        Scanner scanner = new Scanner(System.in); // Objeto para leer desde teclado
+        ArbolBinario arbol = new ArbolBinario();  // Creamos el árbol binario
 
+        // --- Generamos 100 empleados por defecto ---
+        Random random = new Random();
+        String[] puestos = {"Gerente", "Analista", "Desarrollador", "Tester", "Soporte"};
+        for (int i = 1; i <= 30; i++) { // Creamos 100 empleados
+            String nombre = "Empleado " + i; // Nombre secuencial
+            String puesto = puestos[random.nextInt(puestos.length)]; // Puesto aleatorio
+            double salario = 10000 + (40000 * random.nextDouble()); // Salario aleatorio entre 10k-50k
+            int edad = 20 + random.nextInt(41); // Edad aleatoria entre 20-60
+            Empleado emp = new Empleado(i, nombre, puesto, salario, edad); // Creamos empleado
+            arbol.insertar(emp); // Insertamos en el árbol
+        }
+        Logger.log("Se generaron 100 empleados por defecto en el sistema.");
+
+        int opcion; // Variable para controlar el menú
         do {
-            // Mostrar menú de opciones
-            System.out.println("\n--- SISTEMA DE GESTION DE EMPLEADOS ---");
+            // Mostramos el menú de opciones
+            System.out.println("\n--- Sistema de Gestión de Empleados con Árbol Binario ---");
             System.out.println("1. Insertar empleado");
-            System.out.println("2. Buscar empleado por ID");
-            System.out.println("3. Eliminar empleado por ID");
-            System.out.println("4. Mostrar empleados en Inorden");
-            System.out.println("5. Mostrar empleados en Preorden");
-            System.out.println("6. Mostrar empleados en Postorden");
-            System.out.println("7. Salir");
-            System.out.print("Elige una opción: ");
-            opcion = sc.nextInt(); // Leer opción
+            System.out.println("2. Buscar empleado");
+            System.out.println("3. Eliminar empleado");
+            System.out.println("4. Mostrar empleados (Inorden)");
+            System.out.println("5. Mostrar empleados (Preorden)");
+            System.out.println("6. Mostrar empleados (Postorden)");
+            System.out.println("0. Salir");
+            System.out.print("Selecciona una opción: ");
+            opcion = scanner.nextInt(); // Leemos la opción
 
             switch (opcion) {
-                case 1:
-                    // Insertar un nuevo empleado
+                case 1: // Insertar empleado
                     System.out.print("ID: ");
-                    int id = sc.nextInt();
-                    sc.nextLine(); // Limpiar buffer
+                    int id = scanner.nextInt(); // Leemos ID
+                    scanner.nextLine(); // Limpiamos buffer
                     System.out.print("Nombre: ");
-                    String nombre = sc.nextLine();
+                    String nombre = scanner.nextLine(); // Leemos nombre
                     System.out.print("Puesto: ");
-                    String puesto = sc.nextLine();
+                    String puesto = scanner.nextLine(); // Leemos puesto
                     System.out.print("Salario: ");
-                    double salario = sc.nextDouble();
+                    double salario = scanner.nextDouble(); // Leemos salario
                     System.out.print("Edad: ");
-                    int edad = sc.nextInt();
-
-                    Empleado emp = new Empleado(id, nombre, puesto, salario, edad);
-                    arbol.insertar(emp);
-                    System.out.println("Empleado insertado correctamente.");
+                    int edad = scanner.nextInt(); // Leemos edad
+                    Empleado emp = new Empleado(id, nombre, puesto, salario, edad); // Creamos empleado
+                    arbol.insertar(emp); // Insertamos en el árbol
                     break;
 
-                case 2:
-                    // Buscar un empleado por su ID
-                    System.out.print("Ingrese el ID a buscar: ");
-                    int buscarId = sc.nextInt();
-                    Empleado encontrado = arbol.buscar(buscarId);
+                case 2: // Buscar empleado
+                    System.out.print("ID a buscar: ");
+                    int idBuscar = scanner.nextInt(); // Leemos ID a buscar
+                    Empleado encontrado = arbol.buscar(idBuscar); // Buscamos
                     if (encontrado != null) {
                         System.out.println("Empleado encontrado: " + encontrado);
                     } else {
@@ -53,42 +64,34 @@ public class GestionEmpleados {
                     }
                     break;
 
-                case 3:
-                    // Eliminar un empleado
-                    System.out.print("Ingrese el ID a eliminar: ");
-                    int eliminarId = sc.nextInt();
-                    arbol.eliminar(eliminarId);
-                    System.out.println("Si existía, el empleado fue eliminado.");
+                case 3: // Eliminar empleado
+                    System.out.print("ID a eliminar: ");
+                    int idEliminar = scanner.nextInt(); // Leemos ID a eliminar
+                    arbol.eliminar(idEliminar); // Eliminamos del árbol
                     break;
 
-                case 4:
-                    // Mostrar recorrido Inorden
-                    System.out.println("\nRecorrido Inorden:");
+                case 4: // Mostrar empleados Inorden
                     arbol.inorden();
                     break;
 
-                case 5:
-                    // Mostrar recorrido Preorden
-                    System.out.println("\nRecorrido Preorden:");
+                case 5: // Mostrar empleados Preorden
                     arbol.preorden();
                     break;
 
-                case 6:
-                    // Mostrar recorrido Postorden
-                    System.out.println("\nRecorrido Postorden:");
+                case 6: // Mostrar empleados Postorden
                     arbol.postorden();
                     break;
 
-                case 7:
-                    // Salir
+                case 0: // Salir
                     System.out.println("Saliendo del sistema...");
+                    Logger.log("El usuario salió del sistema."); // Guardamos en log
                     break;
 
-                default:
-                    System.out.println("Opción inválida, intente de nuevo.");
+                default: // Si la opción no es válida
+                    System.out.println("Opción inválida.");
             }
+        } while (opcion != 0); // El bucle se repite hasta que el usuario salga
 
-        } while (opcion != 7); // El ciclo se repite hasta que el usuario elija salir
-        sc.close(); // Cerrar Scanner
+        scanner.close(); // Cerramos el scanner
     }
 }

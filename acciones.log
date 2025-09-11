@@ -1,0 +1,242 @@
+[09-09-2025 22:51:15] Se insertó el empleado -> ID: 50 | Nombre: Carlos | Puesto: Dev | Salario: $4000.0 | Edad: 44
+[09-09-2025 22:51:33] Se insertó el empleado -> ID: 30 | Nombre: Johan | Puesto: dev | Salario: $2000.0 | Edad: 33
+[09-09-2025 22:51:47] Se insertó el empleado -> ID: 70 | Nombre: Pedro | Puesto: Diseño | Salario: $2000.0 | Edad: 22
+[09-09-2025 22:52:06] Se insertó el empleado -> ID: 20 | Nombre: Rosa | Puesto: QA | Salario: $2000.0 | Edad: 19
+[09-09-2025 22:52:31] Se insertó el empleado -> ID: 40 | Nombre: Ramon | Puesto: diseño | Salario: $3000.0 | Edad: 28
+[09-09-2025 22:52:49] Se insertó el empleado -> ID: 60 | Nombre: Sara | Puesto: qa | Salario: $2000.0 | Edad: 26
+[09-09-2025 22:53:06] Se insertó el empleado -> ID: 80 | Nombre: Lola | Puesto: Diseño | Salario: $1000.0 | Edad: 39
+[09-09-2025 22:53:09] Se realizó recorrido Inorden
+[09-09-2025 22:53:37] Se realizó recorrido Preorden
+[09-09-2025 22:54:02] Se realizó recorrido Postorden
+[09-09-2025 22:54:18] Se encontró el empleado con ID 20
+[09-09-2025 22:54:28] Se eliminó el empleado con ID 20
+[10-09-2025 19:20:51] Se insertó el empleado -> ID: 1 | Nombre: Empleado1 | Puesto: Gerente | Salario: $42124.320892820266 | Edad: 21
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 2 | Nombre: Empleado2 | Puesto: Desarrollador | Salario: $16654.99002530014 | Edad: 27
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 3 | Nombre: Empleado3 | Puesto: Tester | Salario: $18959.23866207489 | Edad: 31
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 4 | Nombre: Empleado4 | Puesto: Gerente | Salario: $25865.511814113233 | Edad: 49
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 5 | Nombre: Empleado5 | Puesto: Gerente | Salario: $34967.058984199866 | Edad: 44
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 6 | Nombre: Empleado6 | Puesto: Soporte | Salario: $27815.18124251338 | Edad: 38
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 7 | Nombre: Empleado7 | Puesto: Tester | Salario: $14604.573873102287 | Edad: 39
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 8 | Nombre: Empleado8 | Puesto: Analista | Salario: $25756.866786532002 | Edad: 30
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 9 | Nombre: Empleado9 | Puesto: Gerente | Salario: $15770.12242921862 | Edad: 23
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 10 | Nombre: Empleado10 | Puesto: Tester | Salario: $12605.698717725028 | Edad: 41
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 11 | Nombre: Empleado11 | Puesto: Gerente | Salario: $35674.63421949883 | Edad: 51
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 12 | Nombre: Empleado12 | Puesto: Tester | Salario: $44234.07046616055 | Edad: 36
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 13 | Nombre: Empleado13 | Puesto: Desarrollador | Salario: $15905.370777295986 | Edad: 46
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 14 | Nombre: Empleado14 | Puesto: Gerente | Salario: $15399.880543542164 | Edad: 22
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 15 | Nombre: Empleado15 | Puesto: Analista | Salario: $22831.044993902004 | Edad: 46
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 16 | Nombre: Empleado16 | Puesto: Soporte | Salario: $28773.117297750465 | Edad: 38
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 17 | Nombre: Empleado17 | Puesto: Analista | Salario: $12192.303875397607 | Edad: 37
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 18 | Nombre: Empleado18 | Puesto: Tester | Salario: $33346.173172664996 | Edad: 44
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 19 | Nombre: Empleado19 | Puesto: Desarrollador | Salario: $15666.900876766978 | Edad: 40
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 20 | Nombre: Empleado20 | Puesto: Tester | Salario: $10583.610977341667 | Edad: 39
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 21 | Nombre: Empleado21 | Puesto: Gerente | Salario: $12394.158471969324 | Edad: 46
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 22 | Nombre: Empleado22 | Puesto: Tester | Salario: $44987.402519498486 | Edad: 42
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 23 | Nombre: Empleado23 | Puesto: Tester | Salario: $49888.6591159396 | Edad: 47
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 24 | Nombre: Empleado24 | Puesto: Analista | Salario: $10323.980626543645 | Edad: 40
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 25 | Nombre: Empleado25 | Puesto: Analista | Salario: $36468.41031906293 | Edad: 48
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 26 | Nombre: Empleado26 | Puesto: Soporte | Salario: $13579.751512137884 | Edad: 28
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 27 | Nombre: Empleado27 | Puesto: Analista | Salario: $41268.04473745859 | Edad: 23
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 28 | Nombre: Empleado28 | Puesto: Desarrollador | Salario: $45782.034257747226 | Edad: 50
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 29 | Nombre: Empleado29 | Puesto: Soporte | Salario: $28102.90977714285 | Edad: 34
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 30 | Nombre: Empleado30 | Puesto: Analista | Salario: $12142.69627635134 | Edad: 21
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 31 | Nombre: Empleado31 | Puesto: Gerente | Salario: $35895.241762158475 | Edad: 43
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 32 | Nombre: Empleado32 | Puesto: Tester | Salario: $13552.08628918831 | Edad: 56
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 33 | Nombre: Empleado33 | Puesto: Gerente | Salario: $21068.91841513986 | Edad: 51
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 34 | Nombre: Empleado34 | Puesto: Soporte | Salario: $27271.143745451118 | Edad: 58
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 35 | Nombre: Empleado35 | Puesto: Gerente | Salario: $16264.58613910422 | Edad: 51
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 36 | Nombre: Empleado36 | Puesto: Gerente | Salario: $26739.92283988654 | Edad: 55
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 37 | Nombre: Empleado37 | Puesto: Desarrollador | Salario: $14922.290405471998 | Edad: 26
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 38 | Nombre: Empleado38 | Puesto: Gerente | Salario: $48741.032712442975 | Edad: 50
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 39 | Nombre: Empleado39 | Puesto: Tester | Salario: $22724.03943682376 | Edad: 54
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 40 | Nombre: Empleado40 | Puesto: Soporte | Salario: $40726.849610007324 | Edad: 35
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 41 | Nombre: Empleado41 | Puesto: Gerente | Salario: $24584.04266276404 | Edad: 29
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 42 | Nombre: Empleado42 | Puesto: Analista | Salario: $21939.639628229168 | Edad: 32
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 43 | Nombre: Empleado43 | Puesto: Tester | Salario: $39819.68016301861 | Edad: 58
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 44 | Nombre: Empleado44 | Puesto: Gerente | Salario: $49024.06610911417 | Edad: 38
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 45 | Nombre: Empleado45 | Puesto: Tester | Salario: $18331.57689749517 | Edad: 41
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 46 | Nombre: Empleado46 | Puesto: Analista | Salario: $10151.840135395296 | Edad: 29
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 47 | Nombre: Empleado47 | Puesto: Soporte | Salario: $27066.459865233504 | Edad: 30
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 48 | Nombre: Empleado48 | Puesto: Desarrollador | Salario: $21248.626237044227 | Edad: 59
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 49 | Nombre: Empleado49 | Puesto: Tester | Salario: $28731.790678772268 | Edad: 58
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 50 | Nombre: Empleado50 | Puesto: Gerente | Salario: $43733.578072169264 | Edad: 38
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 51 | Nombre: Empleado51 | Puesto: Gerente | Salario: $43676.48561909289 | Edad: 46
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 52 | Nombre: Empleado52 | Puesto: Desarrollador | Salario: $45252.23345022228 | Edad: 33
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 53 | Nombre: Empleado53 | Puesto: Gerente | Salario: $11047.336207109902 | Edad: 44
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 54 | Nombre: Empleado54 | Puesto: Desarrollador | Salario: $23203.792042012985 | Edad: 34
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 55 | Nombre: Empleado55 | Puesto: Soporte | Salario: $26776.06741391185 | Edad: 35
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 56 | Nombre: Empleado56 | Puesto: Desarrollador | Salario: $25434.10935849719 | Edad: 35
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 57 | Nombre: Empleado57 | Puesto: Desarrollador | Salario: $33647.272534087984 | Edad: 44
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 58 | Nombre: Empleado58 | Puesto: Gerente | Salario: $13286.052773551224 | Edad: 38
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 59 | Nombre: Empleado59 | Puesto: Tester | Salario: $32642.785187755017 | Edad: 42
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 60 | Nombre: Empleado60 | Puesto: Analista | Salario: $19269.202760779306 | Edad: 53
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 61 | Nombre: Empleado61 | Puesto: Tester | Salario: $34953.35890290898 | Edad: 27
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 62 | Nombre: Empleado62 | Puesto: Analista | Salario: $34931.14676316008 | Edad: 41
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 63 | Nombre: Empleado63 | Puesto: Gerente | Salario: $40493.82862488909 | Edad: 28
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 64 | Nombre: Empleado64 | Puesto: Analista | Salario: $24082.9776665393 | Edad: 29
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 65 | Nombre: Empleado65 | Puesto: Analista | Salario: $31453.253126142183 | Edad: 53
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 66 | Nombre: Empleado66 | Puesto: Analista | Salario: $32351.88118061502 | Edad: 28
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 67 | Nombre: Empleado67 | Puesto: Tester | Salario: $28356.852248750234 | Edad: 58
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 68 | Nombre: Empleado68 | Puesto: Gerente | Salario: $36104.03270830927 | Edad: 25
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 69 | Nombre: Empleado69 | Puesto: Gerente | Salario: $31311.84032293518 | Edad: 28
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 70 | Nombre: Empleado70 | Puesto: Analista | Salario: $22101.33211907585 | Edad: 56
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 71 | Nombre: Empleado71 | Puesto: Tester | Salario: $40554.60458581337 | Edad: 34
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 72 | Nombre: Empleado72 | Puesto: Tester | Salario: $13825.802115152212 | Edad: 55
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 73 | Nombre: Empleado73 | Puesto: Gerente | Salario: $38111.96576674646 | Edad: 49
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 74 | Nombre: Empleado74 | Puesto: Soporte | Salario: $41225.81265992462 | Edad: 52
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 75 | Nombre: Empleado75 | Puesto: Desarrollador | Salario: $16334.572443368445 | Edad: 52
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 76 | Nombre: Empleado76 | Puesto: Gerente | Salario: $27708.590950263802 | Edad: 22
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 77 | Nombre: Empleado77 | Puesto: Tester | Salario: $19255.810576924312 | Edad: 41
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 78 | Nombre: Empleado78 | Puesto: Tester | Salario: $41523.78730408216 | Edad: 47
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 79 | Nombre: Empleado79 | Puesto: Tester | Salario: $39174.8975864745 | Edad: 60
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 80 | Nombre: Empleado80 | Puesto: Tester | Salario: $48253.19090837086 | Edad: 54
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 81 | Nombre: Empleado81 | Puesto: Soporte | Salario: $43558.161057397694 | Edad: 53
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 82 | Nombre: Empleado82 | Puesto: Gerente | Salario: $46941.99702136722 | Edad: 27
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 83 | Nombre: Empleado83 | Puesto: Analista | Salario: $36297.81132744512 | Edad: 24
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 84 | Nombre: Empleado84 | Puesto: Analista | Salario: $34477.32788597419 | Edad: 47
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 85 | Nombre: Empleado85 | Puesto: Analista | Salario: $42562.82025057074 | Edad: 24
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 86 | Nombre: Empleado86 | Puesto: Analista | Salario: $21140.04620545141 | Edad: 34
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 87 | Nombre: Empleado87 | Puesto: Gerente | Salario: $47921.841034880585 | Edad: 27
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 88 | Nombre: Empleado88 | Puesto: Desarrollador | Salario: $34826.19209044862 | Edad: 53
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 89 | Nombre: Empleado89 | Puesto: Analista | Salario: $20113.417576081243 | Edad: 38
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 90 | Nombre: Empleado90 | Puesto: Gerente | Salario: $22254.690453999694 | Edad: 57
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 91 | Nombre: Empleado91 | Puesto: Soporte | Salario: $35784.03318153049 | Edad: 39
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 92 | Nombre: Empleado92 | Puesto: Analista | Salario: $22548.30160302459 | Edad: 52
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 93 | Nombre: Empleado93 | Puesto: Tester | Salario: $24709.866016584514 | Edad: 27
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 94 | Nombre: Empleado94 | Puesto: Desarrollador | Salario: $31895.080931898345 | Edad: 24
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 95 | Nombre: Empleado95 | Puesto: Soporte | Salario: $10463.4472360256 | Edad: 37
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 96 | Nombre: Empleado96 | Puesto: Gerente | Salario: $37567.943903176594 | Edad: 27
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 97 | Nombre: Empleado97 | Puesto: Tester | Salario: $49181.700368481215 | Edad: 33
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 98 | Nombre: Empleado98 | Puesto: Desarrollador | Salario: $15400.224204715934 | Edad: 55
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 99 | Nombre: Empleado99 | Puesto: Tester | Salario: $27037.17127625027 | Edad: 45
+[10-09-2025 19:20:52] Se insertó el empleado -> ID: 100 | Nombre: Empleado100 | Puesto: Soporte | Salario: $16885.45491211611 | Edad: 39
+[10-09-2025 19:20:52] Se generaron 100 empleados por defecto en el sistema.
+[10-09-2025 19:21:00] Se realizó recorrido Inorden
+[10-09-2025 19:21:40] Se realizó recorrido Preorden
+[10-09-2025 19:23:09] Se realizó recorrido Postorden
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 1 | Nombre: Empleado 1 | Puesto: Gerente | Salario: $48274.200623807425 | Edad: 35
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 2 | Nombre: Empleado 2 | Puesto: Soporte | Salario: $40001.05613435206 | Edad: 56
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 3 | Nombre: Empleado 3 | Puesto: Tester | Salario: $28433.799220228248 | Edad: 49
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 4 | Nombre: Empleado 4 | Puesto: Analista | Salario: $22649.488560703823 | Edad: 56
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 5 | Nombre: Empleado 5 | Puesto: Gerente | Salario: $41966.75804134537 | Edad: 59
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 6 | Nombre: Empleado 6 | Puesto: Desarrollador | Salario: $21730.26530379356 | Edad: 27
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 7 | Nombre: Empleado 7 | Puesto: Soporte | Salario: $39859.95746734007 | Edad: 35
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 8 | Nombre: Empleado 8 | Puesto: Gerente | Salario: $25214.840964414074 | Edad: 47
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 9 | Nombre: Empleado 9 | Puesto: Analista | Salario: $31814.896982709433 | Edad: 46
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 10 | Nombre: Empleado 10 | Puesto: Tester | Salario: $26166.19939839007 | Edad: 59
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 11 | Nombre: Empleado 11 | Puesto: Analista | Salario: $28538.60675162226 | Edad: 28
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 12 | Nombre: Empleado 12 | Puesto: Gerente | Salario: $16372.783532995982 | Edad: 38
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 13 | Nombre: Empleado 13 | Puesto: Tester | Salario: $45489.2203666596 | Edad: 28
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 14 | Nombre: Empleado 14 | Puesto: Soporte | Salario: $32006.55005321466 | Edad: 44
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 15 | Nombre: Empleado 15 | Puesto: Desarrollador | Salario: $47545.199879109445 | Edad: 50
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 16 | Nombre: Empleado 16 | Puesto: Analista | Salario: $48215.53724288738 | Edad: 21
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 17 | Nombre: Empleado 17 | Puesto: Soporte | Salario: $43012.516049014885 | Edad: 20
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 18 | Nombre: Empleado 18 | Puesto: Desarrollador | Salario: $21631.658473112417 | Edad: 53
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 19 | Nombre: Empleado 19 | Puesto: Desarrollador | Salario: $20579.413353981236 | Edad: 41
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 20 | Nombre: Empleado 20 | Puesto: Gerente | Salario: $18094.757609147935 | Edad: 38
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 21 | Nombre: Empleado 21 | Puesto: Analista | Salario: $24273.678215241544 | Edad: 37
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 22 | Nombre: Empleado 22 | Puesto: Soporte | Salario: $17464.254963149673 | Edad: 60
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 23 | Nombre: Empleado 23 | Puesto: Desarrollador | Salario: $19172.67014067724 | Edad: 60
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 24 | Nombre: Empleado 24 | Puesto: Analista | Salario: $18210.036534248557 | Edad: 38
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 25 | Nombre: Empleado 25 | Puesto: Tester | Salario: $34561.65162623898 | Edad: 50
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 26 | Nombre: Empleado 26 | Puesto: Gerente | Salario: $31544.54806207831 | Edad: 25
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 27 | Nombre: Empleado 27 | Puesto: Soporte | Salario: $21431.312711125713 | Edad: 33
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 28 | Nombre: Empleado 28 | Puesto: Gerente | Salario: $18178.373908849408 | Edad: 21
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 29 | Nombre: Empleado 29 | Puesto: Gerente | Salario: $47650.64348561857 | Edad: 35
+[10-09-2025 19:35:33] Se insertó el empleado -> ID: 30 | Nombre: Empleado 30 | Puesto: Desarrollador | Salario: $20351.882156343 | Edad: 22
+[10-09-2025 19:35:33] Se generaron 100 empleados por defecto en el sistema.
+[10-09-2025 19:35:42] Se realizó recorrido Inorden
+[10-09-2025 19:36:04] Se eliminó el empleado con ID 3
+[10-09-2025 19:36:14] Se eliminó el empleado con ID 7
+[10-09-2025 19:36:18] Se eliminó el empleado con ID 20
+[10-09-2025 19:36:22] Se eliminó el empleado con ID 16
+[10-09-2025 19:36:24] Se eliminó el empleado con ID 12
+[10-09-2025 19:36:32] Se eliminó el empleado con ID 3
+[10-09-2025 19:36:35] Se realizó recorrido Inorden
+[10-09-2025 19:36:55] Se realizó recorrido Preorden
+[10-09-2025 19:37:28] Se eliminó el empleado con ID 30
+[10-09-2025 19:37:32] Se eliminó el empleado con ID 29
+[10-09-2025 19:37:34] Se eliminó el empleado con ID 28
+[10-09-2025 19:37:50] Se insertó el empleado -> ID: 55 | Nombre: Selene | Puesto: Gerente | Salario: $3000.0 | Edad: 33
+[10-09-2025 19:38:04] Se insertó el empleado -> ID: 99 | Nombre: Sol | Puesto: Diseño | Salario: $8999.0 | Edad: 58
+[10-09-2025 19:38:24] Se insertó el empleado -> ID: 99 | Nombre: Carlos | Puesto: Tecnico | Salario: $4000.0 | Edad: 28
+[10-09-2025 19:38:27] Se realizó recorrido Preorden
+[10-09-2025 19:39:33] El usuario salió del sistema.
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 1 | Nombre: Empleado 1 | Puesto: Gerente | Salario: $13559.829139642527 | Edad: 49
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 2 | Nombre: Empleado 2 | Puesto: Analista | Salario: $21143.605988494834 | Edad: 22
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 3 | Nombre: Empleado 3 | Puesto: Soporte | Salario: $11777.94083167801 | Edad: 42
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 4 | Nombre: Empleado 4 | Puesto: Tester | Salario: $37785.483617163656 | Edad: 52
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 5 | Nombre: Empleado 5 | Puesto: Desarrollador | Salario: $32149.295040055673 | Edad: 51
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 6 | Nombre: Empleado 6 | Puesto: Analista | Salario: $18949.926666943233 | Edad: 34
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 7 | Nombre: Empleado 7 | Puesto: Gerente | Salario: $15193.613151937443 | Edad: 35
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 8 | Nombre: Empleado 8 | Puesto: Gerente | Salario: $32778.937795287115 | Edad: 41
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 9 | Nombre: Empleado 9 | Puesto: Tester | Salario: $23025.660926320146 | Edad: 28
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 10 | Nombre: Empleado 10 | Puesto: Analista | Salario: $26303.673451468945 | Edad: 24
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 11 | Nombre: Empleado 11 | Puesto: Analista | Salario: $30735.126043016997 | Edad: 60
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 12 | Nombre: Empleado 12 | Puesto: Soporte | Salario: $49706.49749171451 | Edad: 51
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 13 | Nombre: Empleado 13 | Puesto: Gerente | Salario: $39152.48705208303 | Edad: 46
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 14 | Nombre: Empleado 14 | Puesto: Analista | Salario: $41517.97628612605 | Edad: 51
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 15 | Nombre: Empleado 15 | Puesto: Analista | Salario: $11350.736113085484 | Edad: 44
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 16 | Nombre: Empleado 16 | Puesto: Desarrollador | Salario: $23133.82960315757 | Edad: 57
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 17 | Nombre: Empleado 17 | Puesto: Analista | Salario: $18865.607405878247 | Edad: 28
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 18 | Nombre: Empleado 18 | Puesto: Tester | Salario: $42794.659610917304 | Edad: 35
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 19 | Nombre: Empleado 19 | Puesto: Tester | Salario: $13499.804163441228 | Edad: 45
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 20 | Nombre: Empleado 20 | Puesto: Desarrollador | Salario: $27179.086618576963 | Edad: 40
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 21 | Nombre: Empleado 21 | Puesto: Analista | Salario: $16709.504422670754 | Edad: 42
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 22 | Nombre: Empleado 22 | Puesto: Soporte | Salario: $43018.74615333072 | Edad: 45
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 23 | Nombre: Empleado 23 | Puesto: Tester | Salario: $40954.254178186515 | Edad: 30
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 24 | Nombre: Empleado 24 | Puesto: Tester | Salario: $21651.402925185557 | Edad: 54
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 25 | Nombre: Empleado 25 | Puesto: Analista | Salario: $46024.165264470656 | Edad: 42
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 26 | Nombre: Empleado 26 | Puesto: Gerente | Salario: $36186.25668476971 | Edad: 48
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 27 | Nombre: Empleado 27 | Puesto: Soporte | Salario: $48241.1436525077 | Edad: 41
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 28 | Nombre: Empleado 28 | Puesto: Gerente | Salario: $23963.319549716372 | Edad: 25
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 29 | Nombre: Empleado 29 | Puesto: Tester | Salario: $21563.686696922316 | Edad: 34
+[10-09-2025 19:39:38] Se insertó el empleado -> ID: 30 | Nombre: Empleado 30 | Puesto: Soporte | Salario: $16246.568037662872 | Edad: 48
+[10-09-2025 19:39:38] Se generaron 100 empleados por defecto en el sistema.
+[10-09-2025 19:39:48] Se eliminó el empleado con ID 1
+[10-09-2025 19:39:49] Se eliminó el empleado con ID 2
+[10-09-2025 19:39:51] Se eliminó el empleado con ID 3
+[10-09-2025 19:39:56] Se eliminó el empleado con ID 4
+[10-09-2025 19:40:00] Se eliminó el empleado con ID 5
+[10-09-2025 19:40:02] Se eliminó el empleado con ID 6
+[10-09-2025 19:40:04] Se eliminó el empleado con ID 7
+[10-09-2025 19:40:06] Se eliminó el empleado con ID 8
+[10-09-2025 19:40:09] Se eliminó el empleado con ID 9
+[10-09-2025 19:40:11] Se eliminó el empleado con ID 10
+[10-09-2025 19:40:13] Se eliminó el empleado con ID 11
+[10-09-2025 19:40:15] Se eliminó el empleado con ID 12
+[10-09-2025 19:40:18] Se eliminó el empleado con ID 13
+[10-09-2025 19:40:21] Se eliminó el empleado con ID 14
+[10-09-2025 19:40:24] Se eliminó el empleado con ID 15
+[10-09-2025 19:40:27] Se eliminó el empleado con ID 16
+[10-09-2025 19:40:33] Se eliminó el empleado con ID 17
+[10-09-2025 19:40:35] Se eliminó el empleado con ID 18
+[10-09-2025 19:40:40] Se eliminó el empleado con ID 19
+[10-09-2025 19:40:42] Se eliminó el empleado con ID 20
+[10-09-2025 19:40:45] Se eliminó el empleado con ID 21
+[10-09-2025 19:40:48] Se eliminó el empleado con ID 22
+[10-09-2025 19:40:50] Se eliminó el empleado con ID 23
+[10-09-2025 19:40:53] Se eliminó el empleado con ID 24
+[10-09-2025 19:40:56] Se eliminó el empleado con ID 25
+[10-09-2025 19:41:01] Se eliminó el empleado con ID 26
+[10-09-2025 19:41:03] Se eliminó el empleado con ID 27
+[10-09-2025 19:41:06] Se eliminó el empleado con ID 28
+[10-09-2025 19:41:07] Se eliminó el empleado con ID 29
+[10-09-2025 19:41:09] Se eliminó el empleado con ID 30
+[10-09-2025 19:41:11] Se realizó recorrido Inorden
+[10-09-2025 19:41:53] Se insertó el empleado -> ID: 50 | Nombre: Carlos | Puesto: Diseño | Salario: $1000.0 | Edad: 22
+[10-09-2025 19:42:09] Se insertó el empleado -> ID: 3 | Nombre: Sodia | Puesto: dd | Salario: $3.0 | Edad: 3
+[10-09-2025 19:42:13] Se eliminó el empleado con ID 3
+[10-09-2025 19:42:29] Se insertó el empleado -> ID: 30 | Nombre: Sara | Puesto: Developer | Salario: $3000.0 | Edad: 33
+[10-09-2025 19:42:45] Se insertó el empleado -> ID: 70 | Nombre: Omar | Puesto: Gerente | Salario: $4000.0 | Edad: 44
+[10-09-2025 19:43:02] Se insertó el empleado -> ID: 20 | Nombre: Yair | Puesto: diseño | Salario: $3000.0 | Edad: 33
+[10-09-2025 19:43:22] Se insertó el empleado -> ID: 40 | Nombre: Karla | Puesto: Lider | Salario: $8000.0 | Edad: 55
+[10-09-2025 19:43:39] Se insertó el empleado -> ID: 60 | Nombre: Sofia | Puesto: Diseño | Salario: $2000.0 | Edad: 33
+[10-09-2025 19:43:56] Se insertó el empleado -> ID: 80 | Nombre: Pedro | Puesto: Gerente | Salario: $9000.0 | Edad: 55
+[10-09-2025 19:43:59] Se realizó recorrido Inorden
+[10-09-2025 19:44:17] Se realizó recorrido Preorden
+[10-09-2025 19:44:25] Se realizó recorrido Postorden
+[10-09-2025 19:45:13] Se encontró el empleado con ID 70
+[10-09-2025 19:45:18] Se encontró el empleado con ID 30
+[10-09-2025 19:45:23] Se encontró el empleado con ID 20
+[10-09-2025 19:45:31] No se encontró empleado con ID 10
