@@ -29,9 +29,9 @@ public class GestionEmpleados {
             System.out.println("1. Insertar empleado");
             System.out.println("2. Buscar empleado");
             System.out.println("3. Eliminar empleado");
-            System.out.println("4. Mostrar empleados (Inorden)");
-            System.out.println("5. Mostrar empleados (Preorden)");
-            System.out.println("6. Mostrar empleados (Postorden)");
+            System.out.println("4. Mostrar empleados ordenados (Inorden)");
+            System.out.println("5. Mostrar empleados por jerarquia (Preorden)");
+            System.out.println("6. Mostrar empleados por inverso de jerarquia (Postorden)");
             System.out.println("0. Salir");
             System.out.print("Selecciona una opción: ");
             opcion = scanner.nextInt(); // Leemos la opción
