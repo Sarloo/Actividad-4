@@ -1,6 +1,5 @@
 // Clase principal del sistema
 
-import java.util.Random;
 import java.util.Scanner;
 
 // Clase principal que contiene el menú interactivo
@@ -10,16 +9,9 @@ public class GestionEmpleados {
         ArbolBinario arbol = new ArbolBinario();  // Creamos el árbol binario
 
         // --- Generamos 100 empleados por defecto ---
-        Random random = new Random();
-        String[] puestos = {"Gerente", "Analista", "Desarrollador", "Tester", "Soporte"};
-        for (int i = 1; i <= 30; i++) { // Creamos 100 empleados
-            String nombre = "Empleado " + i; // Nombre secuencial
-            String puesto = puestos[random.nextInt(puestos.length)]; // Puesto aleatorio
-            double salario = 10000 + (40000 * random.nextDouble()); // Salario aleatorio entre 10k-50k
-            int edad = 20 + random.nextInt(41); // Edad aleatoria entre 20-60
-            Empleado emp = new Empleado(i, nombre, puesto, salario, edad); // Creamos empleado
-            arbol.insertar(emp); // Insertamos en el árbol
-        }
+       // Cargar 100 empleados balanceados
+        insertarEmpleadosBalanceados(arbol, 1, 100);
+
         Logger.log("Se generaron 100 empleados por defecto en el sistema.");
 
         int opcion; // Variable para controlar el menú
@@ -32,6 +24,7 @@ public class GestionEmpleados {
             System.out.println("4. Mostrar empleados ordenados (Inorden)");
             System.out.println("5. Mostrar empleados por jerarquia (Preorden)");
             System.out.println("6. Mostrar empleados por inverso de jerarquia (Postorden)");
+            System.out.println("7. Comparar eficiencia búsqueda secuencial vs árbol");
             System.out.println("0. Salir");
             System.out.print("Selecciona una opción: ");
             opcion = scanner.nextInt(); // Leemos la opción
@@ -81,7 +74,55 @@ public class GestionEmpleados {
                 case 6: // Mostrar empleados Postorden
                     arbol.postorden();
                     break;
+                
+                case 7: // Comparación de eficiencia entre búsqueda secuencial y en árbol
+                    // Pedimos al usuario que ingrese un ID para hacer la comparación
+                    System.out.print("ID a buscar para comparación: ");
+                    int idComparar = scanner.nextInt();
 
+                // --- Búsqueda secuencial ---
+                // Guardamos el tiempo inicial en nanosegundos antes de empezar la búsqueda secuencial
+                long inicioSec = System.nanoTime();
+                // Variable para almacenar al empleado encontrado de forma secuencial
+                Empleado encontradoSec = null;
+                // Recorremos del 1 al 100 simulando una búsqueda en una lista desordenada
+                for (int i = 1; i <= 100; i++) {
+                    // Si encontramos el ID buscado
+                    if (i == idComparar) {
+                        // Creamos un empleado "falso" con ese ID (simulando que lo encontramos en la lista)
+                        encontradoSec = new Empleado(i, "Empleado" + i, "PuestoX", 10000, 30);
+                        break; // Terminamos el ciclo porque ya lo encontramos
+                    }
+                }
+                // Guardamos el tiempo final después de la búsqueda secuencial
+                long finSec = System.nanoTime();
+                // Calculamos la diferencia de tiempos para obtener el tiempo que tardó la búsqueda secuencial
+                long tiempoSec = finSec - inicioSec;
+
+                // --- Búsqueda en árbol ---
+                // Guardamos el tiempo inicial en nanosegundos antes de buscar en el árbol
+                long inicioArbol = System.nanoTime();
+                // Buscamos el empleado directamente en el árbol binario por su ID
+                Empleado encontradoArbol = arbol.buscar(idComparar);
+                // Guardamos el tiempo final después de la búsqueda en el árbol
+                long finArbol = System.nanoTime();
+                // Calculamos el tiempo que tardó la búsqueda en el árbol
+                long tiempoArbol = finArbol - inicioArbol;
+
+                // --- Resultados ---
+                // Mostramos el resultado de la búsqueda secuencial con el tiempo que tardó
+                System.out.println("Resultado Búsqueda Secuencial: " +
+                        (encontradoSec != null ? "Encontrado" : "No encontrado") +
+                        " en " + tiempoSec + " ns.");
+
+                // Mostramos el resultado de la búsqueda en el árbol binario con el tiempo que tardó
+                System.out.println("Resultado Búsqueda Árbol Binario: " +
+                        (encontradoArbol != null ? "Encontrado" : "No encontrado") +
+                        " en " + tiempoArbol + " ns.");
+
+                // Registramos la acción en el log con el ID buscado
+                Logger.log("Comparación búsqueda secuencial vs árbol para ID " + idComparar);
+                break;
                 case 0: // Salir
                     System.out.println("Saliendo del sistema...");
                     Logger.log("El usuario salió del sistema."); // Guardamos en log
@@ -93,5 +134,21 @@ public class GestionEmpleados {
         } while (opcion != 0); // El bucle se repite hasta que el usuario salga
 
         scanner.close(); // Cerramos el scanner
+    }
+    public static void insertarEmpleadosBalanceados(ArbolBinario arbol, int inicio, int fin) {
+        if (inicio > fin) {
+            return;
+        }
+        int medio = (inicio + fin) / 2;
+        Empleado emp = new Empleado(
+                medio,
+                "Empleado" + medio,
+                "Puesto" + (medio % 10),
+                10000 + (medio * 50),
+                20 + (medio % 40)
+        );
+        arbol.insertar(emp);
+        insertarEmpleadosBalanceados(arbol, inicio, medio - 1);
+        insertarEmpleadosBalanceados(arbol, medio + 1, fin);
     }
 }
