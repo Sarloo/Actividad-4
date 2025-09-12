@@ -8,7 +8,6 @@ public class GestionEmpleados {
         Scanner scanner = new Scanner(System.in); // Objeto para leer desde teclado
         ArbolBinario arbol = new ArbolBinario();  // Creamos el árbol binario
 
-        // --- Generamos 100 empleados por defecto ---
        // Cargar 100 empleados balanceados
         insertarEmpleadosBalanceados(arbol, 1, 100);
 
